@@ -32,7 +32,7 @@
 
 }
 @media (max-width:991px){
-     .navbar-toggle{
+	.navbar-toggle{
         display: block;    
          
     }
@@ -110,7 +110,6 @@
         margin-bottom: 25px;
     }
 	
-}
 	.widget-left{
 		display: none;
 	}
@@ -120,13 +119,11 @@
 	}
 	.social-icon {
     float: justify;
-   
-}	
+   }	
 
-.social-icon li{
+	.social-icon li{
 	float: center;
-	
-}
+	}
 }
 
 @media (max-width: 768px) {
@@ -169,12 +166,19 @@
         font-size: 12px;
         margin-bottom: 15px;
     }
+	.social-icon {
+    margin-left: 150px;
+}	
 }
 
 @media (max-width: 600px) {
 	.post-block-content h2 {
      font-size: 14px;   
     }
+	
+	.social-icon {   
+    margin-left: 100px;
+	}	
 }
 
 @media (max-width: 540px) {
@@ -206,10 +210,8 @@
         font-size: 8px;
         margin-bottom: 5px;
     }
+	.social-icon {   
+    margin-left: 50px;
+	}
 }
 
-@media (max-width: 240px) {
-	.post-meta-top {
-        margin-bottom: 3px;
-    }
-}
